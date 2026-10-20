@@ -1,0 +1,15 @@
+# Python 3.10+ dependencies for the BiRefNet server.
+# PyTorch is installed separately with the CUDA wheel that matches your machine:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+fastapi>=0.111
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pillow>=10.0
+numpy>=1.26
+requests>=2.31
+transformers>=4.37
+huggingface-hub>=0.20
+safetensors>=0.4
+timm>=0.9
+# GFPGAN face restoration (vendored network code in ./facerestore)
+facexlib>=0.3

@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+server.out.log
+server.err.log
+.venv/
+venv/
+
+# Local model weights (large)
+models/
+
+# Local image folders + content cache
+cache/
+input/
+output/
+
+# Frontend
+web/node_modules/
+web/dist/
+web/.vite/
+workspaces/
+
+frontend/dist
+frontend/node_modules
+frontend/vite.err.*
+frontend/vite.out.*
+
